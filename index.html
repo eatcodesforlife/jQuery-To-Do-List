@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JQUERY TO DO LIST</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="to-do-card">
+        <h2>TO DOs</h2>
+        <label for="add-task">Add Task Here:</label>
+        <input type="text" value="Add task here" id="new-task" />
+        <h5>Current Tasks</h5>
+        <ul id="running-tasks" class="tasks"></ul>
+        <h5>Completed Tasks</h5>
+        <ul id="completed-tasks" class="tasks"></ul>
+      </div>
+    </main>
+    <script src="scripts/app.js"></script>
+  </body>
+</html>
